@@ -19,7 +19,7 @@ Usage
 =====
 
 ```ruby
-include_recipe "svc"
+depends "svc"
 
 svc 'sshd' do
   service_name node['openssh']['service_name']
